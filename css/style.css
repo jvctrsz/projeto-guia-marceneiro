@@ -104,7 +104,8 @@ div#img-content img {
 }
 
 section#produtos{
-    max-width: 1200px;
+    width: 100%;
+    margin: auto;
     border: yellow 1px solid;
 }
 
@@ -114,24 +115,3 @@ div.title-expo{
     letter-spacing: 1.2px;
 }
 
-article#expositor-container{
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-}
-
-div#expositor{
-    max-width: 1200px;
-    display: flex;
-    
-}
-
-div#img-container{
-    border: 1px solid;
-    max-width: 100%;
-}
-.img-expo{
-    width: 60px;
-    margin: 25px;
-    border: solid 1px #000;
-}
