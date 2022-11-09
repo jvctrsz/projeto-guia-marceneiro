@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -10,16 +11,127 @@ html, body{
     height: 100vh;
 }
 
+html{
+    /* a cada 1rem sera considerado 10px */
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+header{
+    width: 100%;
+    background-color:#ffcc01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 div#logo{
     max-width: 250px;
 }
 
-img {
+div#logo img{
     width: 100%;
 }
 
-header{
-    background-color:#ffcc01;
+div#menu{
+    margin-right: 10px; 
+}
+
+#menu > a{
+    text-decoration: none;
+    padding: 10px;
+    color:#0f3627;
+    font-size:2rem;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+#menu > a:hover{
+    background-color:#74942c;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#first-content{
     display: flex;
-    justify-content: space-between;
+    flex: row;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#left-container{
+    max-width: 600px;
+    padding: 10px;
+}
+
+div#left-content{
+    width: 100%;
+}
+
+div#left-content > h1{
+    font-size: 3.8rem;
+    letter-spacing: 1.2px;
+}
+
+div#left-content > p{
+    padding-top: 15px;
+    font-size: 2rem;
+    line-height:25px;
+    letter-spacing:0.8px;
+    
+}
+
+
+div#right-container{
+    max-width: 600px;
+    padding: 10px;
+}
+
+div#img-content{
+    width: 100%;
+}
+
+div#img-content img {
+    width: 100%;
+}
+
+section#produtos{
+    max-width: 1200px;
+    border: yellow 1px solid;
+}
+
+div.title-expo{
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 1.2px;
+}
+
+article#expositor-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+div#expositor{
+    max-width: 1200px;
+    display: flex;
+    
+}
+
+div#img-container{
+    border: 1px solid;
+    max-width: 100%;
+}
+.img-expo{
+    width: 60px;
+    margin: 25px;
+    border: solid 1px #000;
 }
