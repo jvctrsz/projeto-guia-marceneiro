@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+div#logo{
+    max-width: 250px;
+}
+
+img {
+    width: 100%;
+}
+
+header{
+    background-color:#ffcc01;
+    display: flex;
+    justify-content: space-between;
+}
