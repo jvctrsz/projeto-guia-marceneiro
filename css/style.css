@@ -168,7 +168,7 @@ div#title-container{
     letter-spacing: 1.2px;
 }
 
-div#mdf-img a{
+div#mdf-img {
     display: flex;
     justify-content: center;
 }
@@ -186,4 +186,16 @@ div#text-container{
     line-height: 25px;
     letter-spacing: 1.1px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+div#text-container a{
+    text-decoration: none;
+    color: #8fb635;
+}
+
+div#text-container a:hover{
+    background-color: #c4f84a73;
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0.2s;
 }
