@@ -151,7 +151,7 @@ div.itens a{
 
 .bigsize:hover{
     padding: 25px;
-    display: inline-block;
+    display: block;
     align-items: center;
 }
 
