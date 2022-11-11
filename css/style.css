@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+:root{
+    --font-family: 'Inconsolata', monospace;
+    --font-paragrafo: 'Rubik', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -77,8 +85,10 @@ div#left-content{
 }
 
 div#left-content > h1{
-    font-size: 3.8rem;
+    font-size: 4rem;
     letter-spacing: 1.2px;
+    font-family: var(--font-family);
+    text-transform: capitalize;
 }
 
 div#left-content > p{
@@ -86,6 +96,7 @@ div#left-content > p{
     font-size: 2rem;
     line-height:25px;
     letter-spacing:0.8px;
+    font-family: var(--font-paragrafo);
     
 }
 
@@ -113,8 +124,10 @@ section#produtos{
 
 div.title-expo{
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     letter-spacing: 1.2px;
+    font-family: var(--font-family);
+    text-transform: capitalize;
 }
 
 article#expo{
@@ -165,8 +178,10 @@ section#mdf{
 
 div#title-container{
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     letter-spacing: 1.2px;
+    font-family: var(--font-family);
+    text-transform: capitalize;
 }
 
 div#mdf-img {
@@ -231,8 +246,10 @@ div#house-content{
 }
 
 div#house-content > h1{
-    font-size: 3.8rem;
+    font-size: 4rem;
     letter-spacing: 1.2px;
+    font-family: var(--font-family);
+    text-transform: capitalize;
 }
 
 div#house-content > p{
