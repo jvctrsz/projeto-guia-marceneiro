@@ -63,13 +63,9 @@ div#menu{
     transition: 0.5s;
 }
 
-main{
-    max-width: 1200px;
-    margin: auto;
-}
-
 #first-content{
     display: flex;
+    justify-content: center;
     flex: row;
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -219,6 +215,7 @@ div#text-container a:hover{
 section#house-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 100px;
 }
 
@@ -260,4 +257,53 @@ div#house-content > p{
     line-height:30px;
     letter-spacing:0.8px;
     
+}
+
+section#sessao-container{
+    max-width: 809px;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+div#img-container-section{
+    display: flex;
+    flex-direction: row;
+}
+
+div#img-container-section img{
+   box-shadow:0px 0px 10px rgba(0, 0, 0, 0.288);
+}
+
+div#wood-img-section > p{
+    width: 400px;
+    height: 400px;
+    font-size: 4rem;
+    font-family: var(--font-paragrafo);
+    text-align: left;
+    padding: 10px;
+    padding-top: 20%;
+}
+
+section#contatos-container{
+    width: 100%;
+    margin-top: 50px;
+    background-color:#75942ca8;
+}
+
+div#inf-contatos{
+    text-align: center;
+    padding:25px
+}
+
+div#inf-contatos > h1{
+    font-size: 5.5rem;
+    padding: 10px;
+    font-family: var(--font-family);
+}
+
+div#inf-contatos > p{
+    font-size: 3rem;
+    font-family: var(--font-paragrafo);
+    font-weight: bold;
 }
